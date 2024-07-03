@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="weather-app">
+        <div class="container">
+            <h3 class="brand">The weather</h3>
+            <div>
+                <h1 class="temp">16&#176;</h1>
+                <div class="city-time">
+                    <h1 class="name"> London</h1>
+                    <small>
+                        <span class="time">06:09</span>
+
+                        <span class="date">
+                            Monday sep 19
+                        </span>
+                    </small>
+                </div>
+                <div class="weather">
+                    <img src="./icons/Day/113.png" alt="icons" class="icon" width="50" height="50">
+                    <span class="condition">cloudy</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="panel">
+            <form id="locationInput">
+                <input type="text" class="search" placeholder="Search Location">
+                <button type="submit" class="submit">
+                    <img src="./icons/Day/f1.png" alt="f1" width="25px" height="25px">
+                </button>
+            </form>
+
+            <ul class="cities">
+                <li class="city">Amsterdam</li>
+                <li class="city">Colombo</li>
+                <li class="city">Rome</li>
+                <li class="city">Tokyo</li>
+            </ul>
+
+            <ul class="details">
+                <h4>Weather Details</h4>
+                <li>
+                    <span>Cloudy</span>
+                    <span class="cloud">89%</span>
+                </li>
+                <li>
+                    <span>Humidity</span>
+                    <span class="humidity">64%</span>
+                </li>
+                <li>
+                    <span>Wind</span>
+                    <span class="wind">8km/h</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
